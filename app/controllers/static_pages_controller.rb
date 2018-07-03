@@ -12,4 +12,7 @@ class StaticPagesController < ApplicationController
   def littletest
   end
 
+  def testing
+  end
+
 end
