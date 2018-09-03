@@ -9,4 +9,8 @@ Rails.application.routes.draw do
 	get 'static_pages/testing'
 	get '/contact', to: 'static_pages#contact'
 	get '/signup', to: 'users#new'
+	get '/signup2', to: 'users#newanother'
+	post '/signup',  to: 'users#create'
+	post 'signup2', to: 'users#create2'
+	resources :users
 end
